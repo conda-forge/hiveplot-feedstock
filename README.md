@@ -14,14 +14,15 @@ Summary: Hive plots in Python!
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/hiveplot-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/hiveplot-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/hiveplot-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/hiveplot-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/hiveplot-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/hiveplot-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/hiveplot-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/hiveplot-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/hiveplot/badges/version.svg)](https://anaconda.org/conda-forge/hiveplot)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/hiveplot/badges/downloads.svg)](https://anaconda.org/conda-forge/hiveplot)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-hiveplot-green.svg)](https://anaconda.org/conda-forge/hiveplot) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/hiveplot.svg)](https://anaconda.org/conda-forge/hiveplot) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/hiveplot.svg)](https://anaconda.org/conda-forge/hiveplot) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/hiveplot.svg)](https://anaconda.org/conda-forge/hiveplot) |
 
 Installing hiveplot
 ===================
@@ -66,6 +67,7 @@ To manage the continuous integration and simplify feedstock maintenance
 Using the ``conda-forge.yml`` within this repository, it is possible to re-render all of
 this feedstock's supporting files (e.g. the CI configuration files) with ``conda smithy rerender``.
 
+For more information please check the [conda-forge documentation](https://conda-forge.org/docs/).
 
 Terminology
 ===========
